@@ -1,0 +1,30 @@
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+.search-input__field {
+  width: 28px;
+  height: 24px;
+  padding-left: 28px;
+  border: none;
+  font-size: 14px;
+  color: #2B2B2B;
+  background-image: url('~img/icons/search-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  transition: width .3s ease-out;
+
+  &::placeholder {
+    color: inherit;
+    text-transform: uppercase;
+  }
+
+  &:focus {
+    width: 200px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 76px;
+  }
+}

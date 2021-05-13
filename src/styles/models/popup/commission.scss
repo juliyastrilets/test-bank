@@ -1,0 +1,9 @@
+.commission:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.commission__text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #808080;
+}

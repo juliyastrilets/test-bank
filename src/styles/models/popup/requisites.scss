@@ -1,0 +1,17 @@
+.requisites {
+  color: #2C2F32;
+}
+
+.requisites__title {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+.requisites__text {
+  font-size: 16px;
+  font-weight: 300;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

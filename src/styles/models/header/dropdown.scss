@@ -1,0 +1,22 @@
+.dropdown {
+  display: flex;
+  align-items: center;
+  color:#FFFFFF;
+  background: none;
+  padding: 8px;
+}
+
+.dropdown__arrow{
+  width: 10px;
+}
+.dropdown__icon {
+  margin-right: 10px;
+}
+
+.dropdown__name  {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-right: 5px;
+  text-transform: uppercase;
+}

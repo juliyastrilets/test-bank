@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  &:after {
+    display: block;
+    content: "";
+    background: #fff;
+    clip-path: polygon(0 0, 0 100%, 28% 50%);
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.search__icon {
+  margin-right: 27px;
+}
+
+// .search__input {
+
+// }

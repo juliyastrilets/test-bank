@@ -1,0 +1,16 @@
+// .popup-footer {}
+
+.popup-footer__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-footer__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 46px;
+  }
+}

@@ -1,0 +1,15 @@
+.toolbar-btn {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  background: none;
+}
+
+.toolbar-btn__icon {
+  margin-right: 10px;
+}
+
+.toolbar-btn__text {
+  font-size: 14px;
+  color: #2C2F32;
+}

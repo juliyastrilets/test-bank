@@ -1,0 +1,36 @@
+.card {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.159392);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 46px 20px 38px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.159392);
+  position: relative;
+  z-index: 10;
+}
+
+.card-header__requisites {
+  padding-top: 20px;
+}
+
+.card-header__features {
+  width: 160px;
+  padding-top: 15px;
+}
+
+.card__footer {
+  background-color:#f2f2f2;
+  padding: 25px 40px 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.card__desc {
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2B2B;
+}
